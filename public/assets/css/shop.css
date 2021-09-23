@@ -1,0 +1,247 @@
+/* HEADER */
+.edu-header {
+    z-index: 999;
+    position: relative;
+    background: #fff !important;
+    box-shadow: 2px -3px 12px 0 rgba(0,0,0,0.08);
+}
+.edu-header .nav-item {
+    white-space: nowrap;
+    font-size: 1.1rem;
+    line-height: 3rem;
+    font-weight: 500;
+    margin-left: 1rem;
+}
+.edu-header .nav-link {
+    color: #000000;
+    font-weight: 500;
+}
+.edu-header .logo-text {
+    color: orange;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+/* Home Page */
+/* Login  */
+
+.signup .card-header {
+    background-color: #f4f6fd;
+    border-bottom: 0
+}
+.first-section .slide-text {
+    font-size: 4rem;
+}
+
+.first-section{
+      z-index: 1;
+      position: relative;
+      background-image: url('http://trystack.mediumra.re/img/knowledge-1.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      background-size: cover;
+      overflow: hidden;
+      color: #fff;
+      background-size: 100%;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      padding-top: 11rem;
+      box-shadow: inset -8px -12px 20px 20px rgba(0, 0, 0, 0.7);
+      box-shadow: inset 1px 11px 250px rgba(0, 0, 0, 0.7);
+      padding-bottom: 11rem;
+}
+.first-section-content.text-center {
+    color: #fff;
+    padding: 80px 0 80px;
+}
+/*=============================
+Cusomer Ragister  CSS
+===============================*/
+.card {
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.05), 0 3px 1px -2px rgba(0,0,0,.08), 0 1px 5px 0 rgba(0,0,0,.08);
+  position: relative;
+  border: 0;
+}
+
+
+/*=============================
+Services CSS
+===============================*/
+
+/*Section Title*/
+.section-title {
+    margin-bottom: 60px;
+    position: relative;
+    margin-top: 60px;
+}
+.section-title span {
+	color: #26b933 ;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+.section-title h3 {
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: capitalize;
+	line-height: 38px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+.section-title .read-more-btn {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	text-transform: capitalize;
+	text-decoration: underline;
+}
+.services-area {
+    /*! padding-bottom: 70px; */
+}
+.services-area.bg {
+    background-image: url('http://localhost:3000/public/assets/image/background/home-banner.jpg');
+    background-attachment: fixed;
+}
+.single-services {
+	text-align: center;
+	background: #ffffff;
+	padding: 25px;
+    margin-bottom: 30px;
+	border-radius: 5px;
+	-webkit-box-shadow: 7px 5px 30px rgba(72,73,121,0.15);
+	box-shadow: 7px 5px 30px rgba(72,73,121,0.15);
+	-webkit-transition: .4s;
+	-moz-transition: .4s;
+	transition: .4s;
+}
+.single-services:hover {
+	background: #009ABF;
+	-webkit-transform: translateY(-10px);
+	transform: translateY(-10px);
+}
+.single-services .icon {
+	background: #f4f6fd;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	font-size: 40px;
+	color: #009ABF;
+	line-height: 80px;
+	border-radius: 5px;
+	-webkit-transition: .4s;
+	-moz-transition: .4s;
+	transition: .4s;
+	padding: 15px;
+}
+.single-services:hover .icon {
+	border-radius: 50%;
+}
+.single-services h3 {
+	font-size: 22px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.single-services p {
+	margin-bottom: 20px;
+}
+.single-services p, .single-services h3 {
+	-webkit-transition: .4s;
+	-moz-transition: .4s;
+	transition: .4s;
+}
+.single-services:hover p, .single-services:hover h3 {
+	color: #ffffff;
+}
+.single-services:hover .read-more-btn {
+	color: #ffffff;
+}
+.single-services:hover .read-more-btn::before {
+	background: #ffffff;
+}
+/*Services Style Two*/
+.services-box {
+	text-align: center;
+	background: #ffffff;
+	padding: 25px;
+    margin-bottom: 30px;
+	border-radius: 5px;
+	-webkit-box-shadow: 7px 5px 30px rgba(72,73,121,0.15);
+	box-shadow: 7px 5px 30px rgba(72,73,121,0.15);
+	-webkit-transition: .4s;
+	-moz-transition: .4s;
+	transition: .4s;
+}
+.services-box:hover {
+	-webkit-transform: translateY(-10px);
+	transform: translateY(-10px);
+}
+.services-box .icon {
+	border: 1px solid #26b933 ;
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	font-size: 40px;
+	position: relative;
+	color: #26b933 ;
+	line-height: 80px;
+	border-radius: 50%;
+	z-index: 1;
+	margin: 20px 0 20px;
+	-webkit-transition: .4s;
+	-moz-transition: .4s;
+	transition: .4s;
+}
+.services-box:hover .icon {
+	color: #ffffff;
+	background-color: #26b933 ;
+}
+.services-box .icon::before {
+	display: block;
+	content: "";
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	top: -21px;
+	left: -21px;
+	z-index: -1;
+	border: 0.5em solid #ffffff;
+	border-radius: 50%;
+	-webkit-box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.06);
+	box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.06);
+	-webkit-transition: .4s;
+	-moz-transition: .4s;
+	transition: .4s;
+}
+.services-box h3 {
+	font-size: 22px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+.services-box p {
+	margin-bottom: 20px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #009ABF;
+    border-color: #009ABF;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #ffa500;
+    border-color: #ffa500;
+}
+.btn{
+	border-radius: 6px;
+	font-weight: 600;
+}
+.input-group .error {
+    position: absolute;
+    top: 2.5rem;
+}

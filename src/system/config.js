@@ -1,0 +1,1 @@
+export const API_GET_PRODUCTS = 'https://fakestoreapi.com/products/category/electronics';
